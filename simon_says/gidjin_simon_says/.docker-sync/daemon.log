@@ -1,0 +1,257 @@
+          ok  Starting native_osx for sync simon
+          ok  simon container still running, restarting unison in container
+     command  docker exec simon supervisorctl restart unison
+unison: stopped
+unison: started
+          ok  starting initial sync of simon
+     success  Sync container started
+     success  Showing unison logs from your sync container: simon
+[2020-04-02 06:16:11 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 06:16:11.54 on 02 Apr 2020
+[2020-04-02 06:16:11 -0700] Sync Log:  [BGN] Copying .docker-sync/daemon.log from /host_sync to /app_sync
+[2020-04-02 06:16:11 -0700] Sync Log:  [END] Copying .docker-sync/daemon.log
+[2020-04-02 06:16:11 -0700] Sync Log:  [BGN] Copying .docker-sync/daemon.pid from /host_sync to /app_sync
+[2020-04-02 06:16:11 -0700] Sync Log:  [END] Copying .docker-sync/daemon.pid
+[2020-04-02 06:16:11 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 06:16:11.55 on 02 Apr 2020
+[2020-04-02 06:16:11 -0700] Sync Log:  Synchronization complete at 06:16:11  (2 items transferred, 0 skipped, 0 failed)
+[2020-04-02 06:20:22 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 06:20:22.26 on 02 Apr 2020
+[2020-04-02 06:20:22 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 06:20:22 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 06:20:22 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 06:20:22.27 on 02 Apr 2020
+[2020-04-02 06:20:22 -0700] Sync Log:  Synchronization complete at 06:20:22  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 06:20:31 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 06:20:31.65 on 02 Apr 2020
+[2020-04-02 06:20:31 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 06:20:31 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 06:20:31 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 06:20:31.67 on 02 Apr 2020
+[2020-04-02 06:20:31 -0700] Sync Log:  Synchronization complete at 06:20:31  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 06:20:46 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 06:20:46.06 on 02 Apr 2020
+[2020-04-02 06:20:46 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 06:20:46 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 06:20:46 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 06:20:46.06 on 02 Apr 2020
+[2020-04-02 06:20:46 -0700] Sync Log:  Synchronization complete at 06:20:46  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 06:22:14 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 06:22:14.41 on 02 Apr 2020
+[2020-04-02 06:22:14 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 06:22:14 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 06:22:14 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 06:22:14.41 on 02 Apr 2020
+[2020-04-02 06:22:14 -0700] Sync Log:  Synchronization complete at 06:22:14  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 06:22:27 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 06:22:27.57 on 02 Apr 2020
+[2020-04-02 06:22:27 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 06:22:27 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 06:22:27 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 06:22:27.58 on 02 Apr 2020
+[2020-04-02 06:22:27 -0700] Sync Log:  Synchronization complete at 06:22:27  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 06:23:59 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 06:23:58.67 on 02 Apr 2020
+[2020-04-02 06:23:59 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 06:23:59 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 06:23:59 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 06:23:58.68 on 02 Apr 2020
+[2020-04-02 06:23:59 -0700] Sync Log:  Synchronization complete at 06:23:58  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 06:24:11 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 06:24:11.23 on 02 Apr 2020
+[2020-04-02 06:24:11 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 06:24:11 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 06:24:11 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 06:24:11.23 on 02 Apr 2020
+[2020-04-02 06:24:11 -0700] Sync Log:  Synchronization complete at 06:24:11  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 06:24:52 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 06:24:51.85 on 02 Apr 2020
+[2020-04-02 06:24:52 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 06:24:52 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 06:24:52 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 06:24:51.86 on 02 Apr 2020
+[2020-04-02 06:24:52 -0700] Sync Log:  Synchronization complete at 06:24:51  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 06:25:41 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 06:25:41.13 on 02 Apr 2020
+[2020-04-02 06:25:41 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 06:25:41 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 06:25:41 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 06:25:41.14 on 02 Apr 2020
+[2020-04-02 06:25:41 -0700] Sync Log:  Synchronization complete at 06:25:41  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 06:26:08 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 06:26:08.01 on 02 Apr 2020
+[2020-04-02 06:26:08 -0700] Sync Log:  [BGN] Updating file docker-compose.yml from /host_sync to /app_sync
+[2020-04-02 06:26:08 -0700] Sync Log:  [END] Updating file docker-compose.yml
+[2020-04-02 06:26:08 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 06:26:08.01 on 02 Apr 2020
+[2020-04-02 06:26:08 -0700] Sync Log:  Synchronization complete at 06:26:08  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 06:29:49 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 06:29:49.18 on 02 Apr 2020
+[2020-04-02 06:29:49 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 06:29:49 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 06:29:49 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 06:29:49.19 on 02 Apr 2020
+[2020-04-02 06:29:49 -0700] Sync Log:  Synchronization complete at 06:29:49  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 06:30:31 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 06:30:30.62 on 02 Apr 2020
+[2020-04-02 06:30:31 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 06:30:31 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 06:30:31 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 06:30:30.62 on 02 Apr 2020
+[2020-04-02 06:30:31 -0700] Sync Log:  Synchronization complete at 06:30:30  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 06:40:39 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 06:40:38.74 on 02 Apr 2020
+[2020-04-02 06:40:39 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 06:40:39 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 06:40:39 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 06:40:38.75 on 02 Apr 2020
+[2020-04-02 06:40:39 -0700] Sync Log:  Synchronization complete at 06:40:38  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 06:41:07 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 06:41:06.96 on 02 Apr 2020
+[2020-04-02 06:41:07 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 06:41:07 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 06:41:07 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 06:41:06.97 on 02 Apr 2020
+[2020-04-02 06:41:07 -0700] Sync Log:  Synchronization complete at 06:41:06  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 06:41:49 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 06:41:49.37 on 02 Apr 2020
+[2020-04-02 06:41:49 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 06:41:49 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 06:41:49 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 06:41:49.38 on 02 Apr 2020
+[2020-04-02 06:41:49 -0700] Sync Log:  Synchronization complete at 06:41:49  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 06:41:52 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 06:41:52.40 on 02 Apr 2020
+[2020-04-02 06:41:52 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 06:41:52 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 06:41:52 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 06:41:52.40 on 02 Apr 2020
+[2020-04-02 06:41:52 -0700] Sync Log:  Synchronization complete at 06:41:52  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 06:43:26 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 06:43:25.99 on 02 Apr 2020
+[2020-04-02 06:43:26 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 06:43:26 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 06:43:26 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 06:43:26.00 on 02 Apr 2020
+[2020-04-02 06:43:26 -0700] Sync Log:  Synchronization complete at 06:43:26  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 06:44:44 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 06:44:43.77 on 02 Apr 2020
+[2020-04-02 06:44:44 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 06:44:44 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 06:44:44 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 06:44:43.78 on 02 Apr 2020
+[2020-04-02 06:44:44 -0700] Sync Log:  Synchronization complete at 06:44:43  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 06:45:10 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 06:45:09.80 on 02 Apr 2020
+[2020-04-02 06:45:10 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 06:45:10 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 06:45:10 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 06:45:09.81 on 02 Apr 2020
+[2020-04-02 06:45:10 -0700] Sync Log:  Synchronization complete at 06:45:09  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 06:49:12 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 06:49:12.33 on 02 Apr 2020
+[2020-04-02 06:49:12 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 06:49:12 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 06:49:12 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 06:49:12.34 on 02 Apr 2020
+[2020-04-02 06:49:12 -0700] Sync Log:  Synchronization complete at 06:49:12  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 06:49:38 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 06:49:37.72 on 02 Apr 2020
+[2020-04-02 06:49:38 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 06:49:38 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 06:49:38 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 06:49:37.73 on 02 Apr 2020
+[2020-04-02 06:49:38 -0700] Sync Log:  Synchronization complete at 06:49:37  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 06:49:57 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 06:49:57.13 on 02 Apr 2020
+[2020-04-02 06:49:57 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 06:49:57 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 06:49:57 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 06:49:57.13 on 02 Apr 2020
+[2020-04-02 06:49:57 -0700] Sync Log:  Synchronization complete at 06:49:57  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 06:50:42 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 06:50:42.21 on 02 Apr 2020
+[2020-04-02 06:50:42 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 06:50:42 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 06:50:42 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 06:50:42.21 on 02 Apr 2020
+[2020-04-02 06:50:42 -0700] Sync Log:  Synchronization complete at 06:50:42  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 06:51:34 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 06:51:33.55 on 02 Apr 2020
+[2020-04-02 06:51:34 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 06:51:34 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 06:51:34 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 06:51:33.56 on 02 Apr 2020
+[2020-04-02 06:51:34 -0700] Sync Log:  Synchronization complete at 06:51:33  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 06:51:45 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 06:51:44.55 on 02 Apr 2020
+[2020-04-02 06:51:45 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 06:51:45 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 06:51:45 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 06:51:44.55 on 02 Apr 2020
+[2020-04-02 06:51:45 -0700] Sync Log:  Synchronization complete at 06:51:44  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 06:52:30 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 06:52:30.19 on 02 Apr 2020
+[2020-04-02 06:52:30 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 06:52:30 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 06:52:30 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 06:52:30.19 on 02 Apr 2020
+[2020-04-02 06:52:30 -0700] Sync Log:  Synchronization complete at 06:52:30  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 06:53:51 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 06:53:50.85 on 02 Apr 2020
+[2020-04-02 06:53:51 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 06:53:51 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 06:53:51 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 06:53:50.85 on 02 Apr 2020
+[2020-04-02 06:53:51 -0700] Sync Log:  Synchronization complete at 06:53:50  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 06:54:50 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 06:54:50.12 on 02 Apr 2020
+[2020-04-02 06:54:50 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 06:54:50 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 06:54:50 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 06:54:50.13 on 02 Apr 2020
+[2020-04-02 06:54:50 -0700] Sync Log:  Synchronization complete at 06:54:50  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 06:55:24 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 06:55:24.02 on 02 Apr 2020
+[2020-04-02 06:55:24 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 06:55:24 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 06:55:24 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 06:55:24.02 on 02 Apr 2020
+[2020-04-02 06:55:24 -0700] Sync Log:  Synchronization complete at 06:55:24  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 06:56:00 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 06:55:59.60 on 02 Apr 2020
+[2020-04-02 06:56:00 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 06:56:00 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 06:56:00 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 06:55:59.61 on 02 Apr 2020
+[2020-04-02 06:56:00 -0700] Sync Log:  Synchronization complete at 06:55:59  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 06:58:01 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 06:58:00.45 on 02 Apr 2020
+[2020-04-02 06:58:01 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 06:58:01 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 06:58:01 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 06:58:00.49 on 02 Apr 2020
+[2020-04-02 06:58:01 -0700] Sync Log:  Synchronization complete at 06:58:00  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 06:58:21 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 06:58:21.15 on 02 Apr 2020
+[2020-04-02 06:58:21 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 06:58:21 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 06:58:21 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 06:58:21.15 on 02 Apr 2020
+[2020-04-02 06:58:21 -0700] Sync Log:  Synchronization complete at 06:58:21  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 07:01:50 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 07:01:50.18 on 02 Apr 2020
+[2020-04-02 07:01:50 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 07:01:50 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 07:01:50 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 07:01:50.19 on 02 Apr 2020
+[2020-04-02 07:01:50 -0700] Sync Log:  Synchronization complete at 07:01:50  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 07:01:54 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 07:01:53.88 on 02 Apr 2020
+[2020-04-02 07:01:54 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 07:01:54 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 07:01:54 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 07:01:53.89 on 02 Apr 2020
+[2020-04-02 07:01:54 -0700] Sync Log:  Synchronization complete at 07:01:53  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 07:02:10 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 07:02:09.98 on 02 Apr 2020
+[2020-04-02 07:02:10 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 07:02:10 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 07:02:10 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 07:02:09.98 on 02 Apr 2020
+[2020-04-02 07:02:10 -0700] Sync Log:  Synchronization complete at 07:02:09  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 07:02:17 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 07:02:16.57 on 02 Apr 2020
+[2020-04-02 07:02:17 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 07:02:17 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 07:02:17 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 07:02:16.58 on 02 Apr 2020
+[2020-04-02 07:02:17 -0700] Sync Log:  Synchronization complete at 07:02:16  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 07:02:56 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 07:02:56.12 on 02 Apr 2020
+[2020-04-02 07:02:56 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 07:02:56 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 07:02:56 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 07:02:56.13 on 02 Apr 2020
+[2020-04-02 07:02:56 -0700] Sync Log:  Synchronization complete at 07:02:56  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 07:03:19 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 07:03:19.00 on 02 Apr 2020
+[2020-04-02 07:03:19 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 07:03:19 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 07:03:19 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 07:03:19.00 on 02 Apr 2020
+[2020-04-02 07:03:19 -0700] Sync Log:  Synchronization complete at 07:03:19  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 07:03:42 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 07:03:41.92 on 02 Apr 2020
+[2020-04-02 07:03:42 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 07:03:42 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 07:03:42 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 07:03:41.92 on 02 Apr 2020
+[2020-04-02 07:03:42 -0700] Sync Log:  Synchronization complete at 07:03:41  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 07:05:17 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 07:05:17.31 on 02 Apr 2020
+[2020-04-02 07:05:17 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 07:05:17 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 07:05:17 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 07:05:17.32 on 02 Apr 2020
+[2020-04-02 07:05:17 -0700] Sync Log:  Synchronization complete at 07:05:17  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 07:06:34 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 07:06:34.36 on 02 Apr 2020
+[2020-04-02 07:06:34 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 07:06:34 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 07:06:34 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 07:06:34.37 on 02 Apr 2020
+[2020-04-02 07:06:34 -0700] Sync Log:  Synchronization complete at 07:06:34  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 11:53:50 -0700] Sync Log:  Error response from daemon: Bad response from Docker engine
+          ok  Starting native_osx for sync simon
+          ok  simon container still running, restarting unison in container
+     command  docker exec simon supervisorctl restart unison
+unison: stopped
+unison: started
+          ok  starting initial sync of simon
+     success  Sync container started
+     success  Showing unison logs from your sync container: simon
+[2020-04-02 16:03:31 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 16:03:31.55 on 02 Apr 2020
+[2020-04-02 16:03:31 -0700] Sync Log:  [BGN] Updating file .docker-sync/daemon.log from /host_sync to /app_sync
+[2020-04-02 16:03:31 -0700] Sync Log:  [END] Updating file .docker-sync/daemon.log
+[2020-04-02 16:03:31 -0700] Sync Log:  [BGN] Updating file .docker-sync/daemon.pid from /host_sync to /app_sync
+[2020-04-02 16:03:31 -0700] Sync Log:  [END] Updating file .docker-sync/daemon.pid
+[2020-04-02 16:03:31 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 16:03:31.56 on 02 Apr 2020
+[2020-04-02 16:03:31 -0700] Sync Log:  Synchronization complete at 16:03:31  (2 items transferred, 0 skipped, 0 failed)
+[2020-04-02 16:03:54 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 16:03:53.98 on 02 Apr 2020
+[2020-04-02 16:03:54 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 16:03:54 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 16:03:54 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 16:03:53.98 on 02 Apr 2020
+[2020-04-02 16:03:54 -0700] Sync Log:  Synchronization complete at 16:03:53  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 16:04:34 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 16:04:34.15 on 02 Apr 2020
+[2020-04-02 16:04:34 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 16:04:34 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 16:04:34 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 16:04:34.15 on 02 Apr 2020
+[2020-04-02 16:04:34 -0700] Sync Log:  Synchronization complete at 16:04:34  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 16:05:29 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 16:05:29.06 on 02 Apr 2020
+[2020-04-02 16:05:29 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 16:05:29 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 16:05:29 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 16:05:29.07 on 02 Apr 2020
+[2020-04-02 16:05:29 -0700] Sync Log:  Synchronization complete at 16:05:29  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-02 16:07:43 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 16:07:42.57 on 02 Apr 2020
+[2020-04-02 16:07:43 -0700] Sync Log:  [BGN] Updating file simon.py from /host_sync to /app_sync
+[2020-04-02 16:07:43 -0700] Sync Log:  [END] Updating file simon.py
+[2020-04-02 16:07:43 -0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 16:07:42.57 on 02 Apr 2020
+[2020-04-02 16:07:43 -0700] Sync Log:  Synchronization complete at 16:07:42  (1 item transferred, 0 skipped, 0 failed)
+[2020-04-09 21:37:00 -0700] Sync Log:  Error response from daemon: Bad response from Docker engine

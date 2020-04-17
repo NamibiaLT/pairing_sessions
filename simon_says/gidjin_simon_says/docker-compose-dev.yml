@@ -1,0 +1,9 @@
+version: '3.3'
+
+services:
+  simon:
+    volumes:
+      - simon:/simon/:nocopy # nocopy is important
+volumes:
+  simon:
+    external: true
